@@ -5,6 +5,8 @@ using UnityEngine.Rendering.Universal;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5.0f;
+    public GameObject beamPrefab; // Reference to the beam prefab
+    public Transform beamSpawnPoint; // Reference to the spawn point of the beam
     private Vector2 moveValue;
 
     private void Awake()
@@ -24,6 +26,15 @@ public class PlayerController : MonoBehaviour
     public void OnMove(InputAction.CallbackContext ctx)
     {
         moveValue = ctx.ReadValue<Vector2>();
+    }
+
+    public void OnAttack(InputAction.CallbackContext ctx)
+    {
+        if(ctx.performed)
+        {
+            // Launch our beam attack
+            Instantiate(beamPrefab, beamSpawnPoint.position, beamSpawnPoint.rotation);
+        }
     }
 
     private void Move()
