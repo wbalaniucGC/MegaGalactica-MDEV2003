@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7162621530224496078}
   - component: {fileID: 996290090052005681}
-  - component: {fileID: 4037530578497252505}
   - component: {fileID: 7053266974271125538}
   - component: {fileID: 425302562101668378}
   - component: {fileID: 5721031567028650770}
@@ -91,28 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4037530578497252505
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3932573304222123081}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 50b3ff33fbf665d418ea362cd0e10051, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!70 &7053266974271125538
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -189,3 +166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ef030f7eecf094a909cf52d4ad6640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offsetToTarget: 5
+  speed: 3
+  explosionPrefab: {fileID: 4172850072394084192, guid: 40b13a5e8a4eaec48be617626d3c9f03, type: 3}

@@ -119,6 +119,120 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &335722202
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3932573304222123081, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_Name
+      value: Alien-Battlecruiser (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+--- !u!1001 &345859533
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3932573304222123081, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_Name
+      value: Alien-Battlecruiser (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,7 +384,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 816b6eab58d24c646a55f35fb63b0f1f, type: 3}
   m_Resource: {fileID: 8300000, guid: 816b6eab58d24c646a55f35fb63b0f1f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -438,6 +552,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1241957266
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3932573304222123081, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_Name
+      value: Alien-Battlecruiser (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
 --- !u!1 &1288670303
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +696,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1375274055
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3932573304222123081, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_Name
+      value: Alien-Battlecruiser (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
 --- !u!1 &1761709891
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,17 +929,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alien-Battlecruiser
       objectReference: {fileID: 0}
-    - target: {fileID: 4037530578497252505, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.52
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.31
+      value: 6.97
       objectReference: {fileID: 0}
     - target: {fileID: 7162621530224496078, guid: 65a1d38018b4d2947aa459e2e94a354a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -760,3 +984,7 @@ SceneRoots:
   - {fileID: 3152351622199264476}
   - {fileID: 1288670305}
   - {fileID: 4305274287577047924}
+  - {fileID: 1375274055}
+  - {fileID: 335722202}
+  - {fileID: 345859533}
+  - {fileID: 1241957266}
