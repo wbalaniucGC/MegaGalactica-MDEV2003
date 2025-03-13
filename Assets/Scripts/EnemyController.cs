@@ -7,9 +7,8 @@ public class EnemyController : MonoBehaviour
     public int offsetToTarget = 5;
     public float speed = 3f;
     public float waitTimeAtTarget = 3.0f;
-
-    [Header("Explosion Object")]
-    public GameObject explosionPrefab = null;
+    public float rotationDuration = 1.0f;
+    public float rotationAngle = 180.0f;
 
     private Vector3 targetPosition = Vector3.zero;
     private Vector3 startPosition = Vector3.zero;
@@ -49,7 +48,7 @@ public class EnemyController : MonoBehaviour
         yield return new WaitForSeconds(waitTimeAtTarget);
 
         // Rotate 90 degrees over a period of time
-        yield return StartCoroutine(RotateOverTime(180, 1f));
+        yield return StartCoroutine(RotateOverTime(rotationAngle, rotationDuration));
 
         // Move back to the start position
         while(Vector3.Distance(transform.position, startPosition) > 0.001f)
@@ -78,18 +77,5 @@ public class EnemyController : MonoBehaviour
         }
 
         transform.eulerAngles = new Vector3(0, 0, endRotation);
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if(other.CompareTag("Beam"))
-        {
-            // Destroy the beam
-            Destroy(other.gameObject);
-            // Create the explosion
-            Instantiate(explosionPrefab, transform.position, transform.rotation);
-            // Destroy the enemy
-            Destroy(gameObject);
-        }
     }
 }
